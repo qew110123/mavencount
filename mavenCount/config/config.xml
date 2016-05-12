@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<info>  
+  <driver>oracle.jdbc.driver.OracleDriver</driver>  
+  <url218>jdbc:oracle:thin:@192.168.1.218:1521:yibase</url218>  
+  <user218>dwetl</user218>  
+  <pwd218>ynkj666</pwd218>
+  <drivermysql16>com.mysql.jdbc.Driver</drivermysql16>
+  <urlmysql16>jdbc:mysql://192.168.1.16:3306/artsoft?useUnicode=true&amp;characterEncoding=UTF-8</urlmysql16>  
+  <usermysql16>root</usermysql16>  
+  <pwdmysql16>123456</pwdmysql16>
+  <ProxyPath>proxy.txt</ProxyPath>  
+</info>
