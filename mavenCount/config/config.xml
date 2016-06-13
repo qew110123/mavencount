@@ -2,7 +2,7 @@
 
 <info>  
   <driver>oracle.jdbc.driver.OracleDriver</driver>  
-  <url218>jdbc:oracle:thin:@192.168.1.218:1521:yibase</url218>  
+  <url218>jdbc:oracle:thin:@192.168.1.10:1521:yibase</url218>  
   <user218>dwetl</user218>  
   <pwd218>ynkj666</pwd218>
   <drivermysql16>com.mysql.jdbc.Driver</drivermysql16>

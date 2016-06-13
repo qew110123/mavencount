@@ -540,6 +540,12 @@ public class CountNum {
 		// System.out.println(newtime);
 		// String times = getBeforeAfterDate(newtime, -10);
 		// totalplaywangluo(times);.
+//		TimeTest tt = new TimeTest();
+//		String newtime = tt.getNowTime("yyyyMMdd");
+//		System.out.println(newtime);
+//		String times = CountNum.getBeforeAfterDate(newtime, -10);
+//		System.out.println(times);
+//		CountNum.deletedata(times);
 	}
 
 }

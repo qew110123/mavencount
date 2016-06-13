@@ -53,5 +53,8 @@ public class RunOpenTiem {
             } 
         }, time, 1000 * 60 * 60 * 1);// 这里设定将延时每天固定执行  
     }
+	public static void main(String[] args) {
+//		runstatic();
+	}
 
 }

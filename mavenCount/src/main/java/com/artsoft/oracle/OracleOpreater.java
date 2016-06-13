@@ -146,8 +146,8 @@ public class OracleOpreater {
 
 	public static List selectindexsopeople(String date_date) {
 		Connection conn = DBOperate.getInstance().getConnection();
-		String sql = "select data_date,count(*) from( select t.PERSON_ID,t.data_date from ods.tem_person_relevant_keyword t where t.data_date>'"
-				+ date_date + "' group by t.data_date , t.PERSON_ID)  tt  group by tt.data_date";
+		String sql = "select data_date,count(*) from( select t.data_id,t.data_date from ods.TEM_KEYWORD_RELEVANT_trend t where t.data_date>'"
+				+ date_date + "' group by t.data_date , t.data_id)  tt  group by tt.data_date";
 		ArrayList<String> listname = new ArrayList<String>();
 		int iNum = 2;
 		List<String> list = DBOperate.getResultList(conn, sql, iNum);

@@ -51,6 +51,7 @@ public class DBmysqlOperate {
 		try {
 			
 			Class.forName(driver);
+			
 			return DriverManager.getConnection(url, user, pwd);
 		} catch(Exception e){
 			e.printStackTrace();
